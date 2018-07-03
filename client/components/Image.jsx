@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Image = (props) => (
-  <div> <img src={props.image}/></div>
+const Image = ({id, imgURL}) => (
+  <div> <img src={imgURL}/></div>
 )
 
 export default Image
